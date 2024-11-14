@@ -273,6 +273,8 @@ class BlockIIV extends Block {
       '#options' => array(
         'left' => t('Left'),
         'right' => t('Right'),
+        'above' => t('Above'),
+        'below' => t('Below'),
       ),
       '#default_value' => isset($block['image_position']) ? $block['image_position'] : '',
     );
